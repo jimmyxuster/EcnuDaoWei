@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/id_general_webview"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.jimmyhsu.ecnudaowei.View.FishProgressBar
+        android:id="@+id/id_progress"
+        android:layout_width="230dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

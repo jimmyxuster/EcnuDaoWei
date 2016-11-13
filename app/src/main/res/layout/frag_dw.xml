@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/id_dw_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="#ff777777"
+        app:tabBackground="@color/tabColorGrey"
+        app:tabGravity="fill"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#ff000000"
+        app:tabIndicatorColor="@color/colorAccent"/>
+    <com.amap.api.maps.MapView
+        android:id="@+id/id_dw_mapview"
+        android:layout_below="@id/id_dw_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.amap.api.maps.MapView>
+
+    <com.jimmyhsu.ecnudaowei.View.DwItemView
+        android:id="@+id/id_dw_itemview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"/>
+    <FrameLayout
+        android:id="@+id/id_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:clickable="true">
+        <com.jimmyhsu.ecnudaowei.View.FishProgressBar
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/id_secondhand_header"
+        android:text="@string/prompt_transact_rule"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+</android.support.v7.widget.CardView>
+

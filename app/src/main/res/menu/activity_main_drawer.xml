@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_secondhand"
+            android:icon="@drawable/ic_menu_sh"
+            android:title="鱼尾巴"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_daowei"
+            android:icon="@drawable/location23"
+            android:title="鱼跃" />
+        <item
+            android:id="@+id/nav_me"
+            android:icon="@drawable/person"
+            android:title="我"
+            android:checkable="false"/>
+    </group>
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="注销" />
+        </menu>
+    </item>
+
+</menu>
